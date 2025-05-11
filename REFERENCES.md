@@ -29,3 +29,8 @@
 
     https://github.com/user-attachments/assets/d91f2b91-0d19-4529-8fe3-fc55717b38bf
 
+
+### CommunityToolkit.Mvvm + MahApps.Metro Dialog
+- 내용 생략
+
+    <img src="./image/wpf9998.png" width="600">

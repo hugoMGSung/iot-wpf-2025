@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityToolkitApp04", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTNetFrameworkApp01", "CTNetFrameworkApp01\CTNetFrameworkApp01.csproj", "{EECEB96E-1BC6-4484-A5F9-19D38D76DF0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityToolkitApp05", "CommunityToolkitApp05\CommunityToolkitApp05.csproj", "{87668489-F048-E057-94A3-12902C293111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahApps01", "MahApps01\MahApps01.csproj", "{1D2EE85B-2636-478A-BB55-7A001E980118}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{EECEB96E-1BC6-4484-A5F9-19D38D76DF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EECEB96E-1BC6-4484-A5F9-19D38D76DF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EECEB96E-1BC6-4484-A5F9-19D38D76DF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87668489-F048-E057-94A3-12902C293111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87668489-F048-E057-94A3-12902C293111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87668489-F048-E057-94A3-12902C293111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87668489-F048-E057-94A3-12902C293111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2EE85B-2636-478A-BB55-7A001E980118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2EE85B-2636-478A-BB55-7A001E980118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2EE85B-2636-478A-BB55-7A001E980118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2EE85B-2636-478A-BB55-7A001E980118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
