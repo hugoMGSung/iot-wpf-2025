@@ -27,3 +27,5 @@
 3. MahApps.Metro 추가
 4. 생략
 
+    https://github.com/user-attachments/assets/d91f2b91-0d19-4529-8fe3-fc55717b38bf
+
