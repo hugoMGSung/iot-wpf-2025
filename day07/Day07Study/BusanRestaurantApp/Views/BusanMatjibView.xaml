@@ -17,7 +17,7 @@
             <iconPacks:PackIconFontAwesome Kind="UtensilsSolid" Margin="10,7,0,0" Foreground="White" />
         </DataTemplate>
     </mah:MetroWindow.IconTemplate>
-    <Grid Margin="10">
+    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
@@ -30,9 +30,9 @@
         
         <!-- UI 컨트롤 구성 -->
         <!-- Title 영역 -->
-        <Label Grid.Row="0" Grid.Column="0" Content="부산 맛집정보" FontSize="20" FontWeight="Bold" />
+        <Label Grid.Row="0" Grid.Column="0" Content="부산 맛집정보" FontSize="20" FontWeight="Bold" Margin="5" />
 
-        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5,10">
             <TextBlock Text="페이지번호" Margin="5, 3" VerticalAlignment="Center" />
             <mah:NumericUpDown Minimum="1" Margin="5, 3" Value="{Binding PageNo}" />
             <TextBlock Text="결과수" Margin="5, 3" VerticalAlignment="Center" />
@@ -52,13 +52,13 @@
         </StackPanel>       
         
         <!-- 데이터그리드 영역 -->
-        <DataGrid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+        <DataGrid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="10"
                   IsReadOnly="True" AutoGenerateColumns="True"
                   ItemsSource="{Binding BusanItems}"
                   Style="{StaticResource MahApps.Styles.DataGrid.Azure}">
         </DataGrid>
         <!-- 상태표시줄 영역 -->
-        <StatusBar Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="-10">
+        <StatusBar Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
             <StatusBarItem Content="데이터포털 API 활용앱" Margin="10,0" />
             <Separator Style="{StaticResource MahApps.Styles.Separator.StatusBar}" />
             <StatusBarItem Content="{Binding SearchResult}" />
