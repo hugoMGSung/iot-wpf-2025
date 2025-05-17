@@ -5,12 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:uc="clr-namespace:WpfSmartHomeApp.UserControls"
         xmlns:local="clr-namespace:WpfSmartHomeApp"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:Dialog="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
         WindowStyle="None" AllowsTransparency="True"
         x:Name="window"
-        Title="MainWindow" Height="720" Width="1080">
+        Title="MainWindow" Height="720" Width="1080"
+        Dialog:DialogParticipation.Register="{Binding}"
+        Closing="window_Closing">
     <Border Background="White"
             Padding="30"
             CornerRadius="30"
@@ -67,7 +72,7 @@
 
                     <Button Style="{StaticResource MenuButton}"
                             Margin="15,0,15,25"
-                            VerticalAlignment="Bottom">
+                            VerticalAlignment="Bottom" Click="Button_Click">
                         <Image Source="/Images/_logout.png"
                                Width="30"/>
                     </Button>
